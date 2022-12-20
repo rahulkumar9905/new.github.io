@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lazyart.com</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+<header class="header">
+    <div class="header-1">
+        <a href="#" class="logo"> <i class="fas fa-book"></i> LazyArt</a>
+   <div class="wrapper" >
+    <div class="search-input" >
+       
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+          
+       
+
+    </div>
+   </div>
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <div id="login-btn" class="fas fa-shopping-cart"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#featured">featured</a>
+            <a href="#arrivals">arrivals</a>
+            <a href="#reviews">About</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+    </div>
+
+
+
+</header>
+<!-- header section ends -->
+
+<!-- bottom navbar start -->
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+<!-- bottom navbar ends -->
+
+<!-- login form starts -->
+<div class="user-form-container">
+    <div id="close-user-btn" class="fas fa-times"></div>
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="reg/reg2.html">click here</a></p>
+        <p>don't have an account ? <a href="reg/reg.html">create one</a></p>
+    </form>
+</div>
+<div class="login-form-container">
+    <div id="close-login-btn" class="fas fa-times"></div> 
+    <img src="/images/fu2.jpeg" alt="">
+    <form class="cart" >
+    </div>
+ <!-- loging form ends-->
+
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="row">
+        <div class="content">
+            <h3>upto 75% off</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt nostrum accusamus. Nam alias sit necessitatibus, aliquid ex minima at!</p>
+            <a href="shop now/shop.html" class="btn">shop now</a>
+        </div>
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="single/pp01.html" target="_blank" class="swiper-slide" ><img   src="image/book-31.jpg" alt=""></a>
+                <a href="single/pp02.html" target="_blank"  class="swiper-slide"><img src="image/book-51.jpg" alt=""></a>
+                <a href="single/pp08.html" target="_blank" class="swiper-slide"><img src="image/book-8.jpg" alt=""></a>
+                <a href="single/pp07.html" target="_blank"  class="swiper-slide"><img src="image/book-41.jpg" alt=""></a>
+                <a href="single/pp05.html" target="_blank" class="swiper-slide"><img src="image/book-21.jpg" alt=""></a>
+                <a href="single/pp06.html" target="_blank" class="swiper-slide"><img src="image/book-61.jpg" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+    </div>
+</section>
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over Rs.500</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100 secure payment</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+</section>
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+<section class="featured" id="featured">
+    <h1 class="heading"> <span>featured Art</span> </h1>
+    <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="single/pp01.html" target="_blank"  class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured Art</h3>
+                    <div class="price">₹299.00 <span>₹1000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="single/pp02.html" target="_blank"  class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured Art</h3>
+                    <div class="price">₹299.00 <span>₹1000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="single/pp03.html" target="_blank"  class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured Art</h3>
+                    <div class="price">₹299.00 <span>₹1000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="single/pp04.html" target="_blank"  class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured Art</h3>
+                    <div class="price">₹299.00 <span>₹1000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="single/pp05.html" target="_blank"  class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured Art</h3>
+                    <div class="price">₹299.00 <span>₹1000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="single/pp06.html" target="_blank"  class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-6.jpg" target="_blank"  alt="">
+                </div>
+                <div class="content">
+                    <h3>featured Art</h3>
+                    <div class="price">₹299.00 <span>₹1000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="single/pp07.html" target="_blank"  class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured Art</h3>
+                    <div class="price">₹449<span>₹1000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="single/pp08.html" target="_blank"  class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/book-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>featured Art</h3>
+                    <div class="price">₹299.00 <span>₹1000</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+<section class="newsletter">
+    <form action="">
+        <h3>subscribe for latest updates</h3>
+        <input type="email" name="Email" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+</section>
+<!-- newsletter section ends -->
+
+<!-- founder section stars -->
+<section class="reviews" id="reviews">
+    <h1 class="heading"> <span>FOUNDER</span> </h1>
+    <div class="swiper reviews-slider">
+        <div class="swiper-wrapper "  >
+            <div >
+                <img width="200px" height="200px"  src="image/WhatsApp Image 2022-11-06 at 00.15.54.jpg" alt="">
+                <h2>KUMAR RAHUL</h2>
+                <p>I Am a founder of lazyart. Born in 2004, <b>KUMAR RAHUL</b> completed his bachelor’s in fine arts from the College of Art, YouTube University, and his master’s in fine arts from the School of Art, YouTube University.Bhalla is a conceptual artist working with environmental issues, particularly those surrounding water, for more than two Year. Primarily using photography, the artist engages with the eco-politics of water as well as explores histories and associative meanings of sites of everyday living, often building narratives through performance.
+                    The artist lives and works in Ranchi, India. </p>
+            </div>
+                <div>
+                <img  width="120px" height="200px" src="image/tausif.jpg" alt="">
+                <h1>TAUSHIF ANSARI</h1>
+                <p>I am a founder of lazy art Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nam facilis, veritatis sed ea libero dolorem iure temporibus molestiae a cumque aliquid sapiente, expedita rem blanditiis cupiditate eos! Veritatis corrupti dignissimos porro repudiandae saepe at adipisci, perferendis amet provident quis quas ea deserunt! Temporibus praesentium voluptate deleniti tempora  </p>
+            </div>
+        </div>
+    </div> 
+</section>
+<!-- founder section ends -->
+
+
+<!-- footer section starts  -->
+<section class="footer">
+ <div class="box-container">
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="https://goo.gl/maps/jxUtULm2GVcFRC2u7"> <i class="fas fa-map-marker-alt"></i> india </a> 
+            <h3>contact info</h3>
+            <a href="tel: 6201307169"> <i class="fas fa-phone"></i> +91 6201307169 </a>
+            <a href="tel: 9076642874"> <i class="fas fa-phone"></i> +91 9076642874</a>
+            <a href="#"> <i class="fas fa-envelope"></i> lazyartrahul@gmail.com </a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+            <a href="/payment page/privcy.html"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+            <a href="/payment page/payment.html"> <i class="fas fa-arrow-right"></i> payment method </a>
+            <a href="/Autocomplete Search Suggestions/index.html"> <i class="fas fa-arrow-right"></i> our serivces </a>
+        </div>
+        <!-- <div class="box">
+            
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>        -->
+    </div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/lazy.art_rahul/" target="_blank"  class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+    <div class="credit"> created by <span>Rahul and Tausif</span> | all rights reserved! </div>
+</section>
+</div> 
+<!-- footer section ends -->
+
+<!-- custom js file link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
